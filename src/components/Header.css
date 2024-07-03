@@ -1,0 +1,26 @@
+.header {
+  text-align: center;
+  background-color: rgb(217, 176, 42); /* Background color */
+  width: 100%;
+  height: 60px; /* Adjust height as needed */
+  line-height: 60px; /* Center text vertically */
+  font-size: 1.5rem; /* Adjust font size */
+  font-weight: bold; /* Optionally bold text */
+  color: white; /* Text color */
+  border-bottom: 2px solid #ccc; /* Optional: Add a bottom border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Box shadow for subtle lift effect */
+}
+
+/* Light Theme */
+.lightTheme {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Dark Theme */
+.darkTheme {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+/* Additional theme classes as needed */

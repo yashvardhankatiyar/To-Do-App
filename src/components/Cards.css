@@ -1,0 +1,71 @@
+/* Light Theme */
+.lightTheme .Cardouter {
+  background-color: #fff;
+  color: #333;
+}
+
+.lightTheme .Cardouter h2 {
+  color: #333;
+}
+
+.lightTheme .Cardouter p {
+  color: #666;
+}
+
+/* Dark Theme */
+.darkTheme .Cardouter {
+  background-color: #31363F;
+  color: #f0f0f0;
+}
+
+.darkTheme .Cardouter h2 {
+  color: #f0f0f0;
+}
+
+.darkTheme .Cardouter p {
+  color: #ccc;
+}
+
+/* General Styles */
+.delete-button {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 20%;
+  /* Adjust size and other properties as needed */
+}
+
+.edit-button {
+  position: absolute;
+  top: 9px;
+  right: 45px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.Cardouter {
+  position: relative;
+  padding: 20px; /* Add some padding inside the card */
+  margin: 10px; /* Add some margin between cards */
+  border: 1px solid #ccc; /* Add a light grey border */
+  border-radius: 8px; /* Round the corners of the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  max-width: 300px; /* Limit the card's width */
+  width: 300px;
+  height: 100px;
+}
+
+.Cardouter h2 {
+  margin-top: 0; /* Remove default top margin for headings */
+  font-size: 1.5em; /* Set font size for the title */
+}
+
+.Cardouter p {
+  margin: 0; /* Remove default margin for paragraphs */
+  font-size: 1em; /* Set font size for the description */
+}

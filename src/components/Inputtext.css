@@ -1,0 +1,89 @@
+/* General Styles */
+.inputdiv {
+  display: flex;
+  flex-direction: column; /* Stack inputs vertically */
+  align-items: center; /* Center inputs horizontally */
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px auto; /* Center the div horizontally on the page */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.inputdiv input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.inputdiv input.title {
+  font-weight: bold; /* Optional: Different style for title input */
+}
+
+.inputdiv input.description {
+  font-style: italic; /* Optional: Different style for description input */
+}
+
+.inputdiv button {
+  background-color: blue;
+  color: white;
+  margin-top: 15px;
+  height: 35px;
+  width: 70px;
+  border-radius: 8px;
+  border: none; /* Optional: Remove default border */
+  cursor: pointer; /* Optional: Change cursor to pointer */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s, transform 0.3s; /* Add transition for smooth hover effect */
+}
+
+.inputdiv button:hover {
+  background-color: darkblue; /* Change background color on hover */
+  transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
+/* Light Theme */
+.lightTheme .inputdiv {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.lightTheme .inputdiv input {
+  background-color: #fff;
+  color: #333;
+}
+
+.lightTheme .inputdiv button {
+  background-color: blue;
+  color: white;
+}
+
+.lightTheme .inputdiv button:hover {
+  background-color: darkblue;
+}
+
+/* Dark Theme */
+.darkTheme .inputdiv {
+  background-color: #2b2b2b;
+  color: #f0f0f0;
+}
+
+.darkTheme .inputdiv input {
+  background-color: #3c3c3c;
+  color: #f0f0f0;
+  border: 1px solid #555;
+}
+
+.darkTheme .inputdiv button {
+  background-color: #555;
+  color: #f0f0f0;
+}
+
+.darkTheme .inputdiv button:hover {
+  background-color: #777;
+}
